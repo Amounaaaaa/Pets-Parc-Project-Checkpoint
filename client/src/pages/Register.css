@@ -1,0 +1,71 @@
+/* .form {
+  width: 30%;
+  display: grid;
+  text-align: center;
+  margin-left: 50%;
+}
+.log{
+  display: grid;
+  
+  text-align: center;
+  width: 30%;
+  margin-left: 15%;
+}
+.all{
+  display: flex;
+
+} */
+.leftside,
+.rightside {
+  height: 40vh;
+  width: 100%;
+}
+.row {
+  width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+  .leftside,
+  .rightside {
+    height: calc(100vh - 80);
+  }
+}
+
+.color{
+  display: flex;
+}
+.leftside {
+  background: #ffffff;
+}
+.rightside {
+  background: #ffffff;
+}
+.left {
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 27%;
+}
+.right {
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 27%;
+}
+
+.pass {
+  margin-top: 10px;
+}
+.button {
+  margin-top: 20px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.create {
+  margin-bottom: 5%;
+}
